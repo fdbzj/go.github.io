@@ -1,0 +1,88 @@
+
+.section{min-width: 1920px;}	
+
+/*------------------------------ 背景图 开始 ---------------------------------------------*/
+.section3{background: url(../img/images/bj_04.jpg) no-repeat;background-size:100% 100%;}
+.section4{background: url(../img/images/bj_06.jpg) no-repeat;background-size:100% 100%;}
+.section5{background: url(../img/images/bj_07.jpg) no-repeat;background-size:100% 100%;}
+/*------------------------------ 背景图 结束 ---------------------------------------------*/
+
+/*------------------------------ 导航开始 ---------------------------------------------*/
+.nav{width: 100%;padding-top: 13px;position: fixed;top: 0;left: 0;z-index: 111;background: #FFFFFF;-moz-box-shadow:0px 3px 6px #cccccc; -webkit-box-shadow:0px 3px 6px #CCCCCC; box-shadow:0px 3px 6px #CCCCCC;}
+.nav .nav_min{width: 1205px;margin: 0 auto;}
+.nav .nav_min h1{float: left;width: 24.4813%;;}
+.nav .nav_min h1 a{display: block;}
+.nav .nav_min h1 a img{width: 100%;}
+.nav .nav_min p{display: none;}
+.nav .nav_min ul{float: right;margin-top: 13px;}
+.nav .nav_min ul li{float: left;width: 141px;text-align: center;height: 64px;}
+.nav .nav_min ul li a{display: block;margin-top: 7px;height: 49px;line-height: 49px;color: #000000;}
+.nav .nav_min ul li:first-child{width: 90px;}
+.nav .nav_min ul li:hover a{border-bottom:5px solid #f98a24 ;color: #f98a24;}
+#menu li.active a{border-bottom:5px solid #f98a24 ;color: #f98a24;}
+/*------------------------------ 导航结束 ---------------------------------------------*/
+.top_k{width: 100%;height: 131px;}
+
+/*------------------------------ 第2屏开始 ---------------------------------------------*/
+.section2 .center{width: 1205px;margin: 0 auto;position: relative;}
+.section2 .center>p:first-child{line-height: 50px;height: 50px;margin-top: 68px;color: #f98a24;font-size: 28px;}
+.section2 .center>p:first-child a{color: #000000;font-weight: 500;margin: 0 15px;font-size: 32px;}
+.section2 .center .section2_left ul{width: 827px;margin-left: 65px;}
+.section2 .center .section2_left ul li{width: 271px;float: left;margin-bottom: 10px;margin-right: 7px;box-shadow:0px 0px 15px #CCCCCC;}
+.section2 .center .section2_left ul li img{float: left;margin-top: 27px;margin-left: 17px;margin-bottom: 21px;width: 100px;height: 96px;}
+.section2 .center .section2_left ul li div{float: left;text-align: center;color: #000000;width: 152px;}
+.section2 .center .section2_left ul li div h4{margin-top: 41px;height: 30px;line-height: 30px;font-size: 20px;}
+.section2 .center .section2_left ul li div span{font-size: 12px;height: 18px;line-height: 18px;display: block;}
+.section2 .center .section2_left ul li:first-child{background: #f5f5f5;margin:0 281px 10px 247px}
+.section2 .center .section2_left ul li:nth-of-type(2){background: #e1e0e5;margin-left: 126px;}
+.section2 .center .section2_left ul li:nth-of-type(3){background: #cbcacf;}
+.section2 .center .section2_left ul li:nth-of-type(4){background:#9e999d;}
+.section2 .center .section2_left ul li:nth-of-type(5){background: #b1a4a2;box-shadow:0px 0px 15px #000000;}
+.section2 .center .section2_left ul li:nth-of-type(6){background: #b9b9bb;margin-right: 0;box-shadow:0px 0px 15px #000000;}
+.section2 .center .section2_left ul li:last-child{background: #8e8e8c;margin-left: 411px;}
+.section2 .center .section2_right{width: 552px;position:absolute;left: 654px;top: 32px;}
+.section2 .center .section2_right p{height: 48px;line-height: 48px;font-size: 18px;color: #000000;}
+.section2 .center .section2_right p:nth-of-type(2){text-indent: 46px;}
+.section2 .center .section2_right p:nth-of-type(3){text-indent: 91px;}
+.section2 .center .section2_right p:last-child{text-indent: 138px;}
+
+/*------------------------------ 第2屏开始 ---------------------------------------------*/
+
+/*------------------------------  标题开始 ---------------------------------------------*/
+div.top{text-align: center;}
+.top h2{font-size: 30px;color: #000000;letter-spacing: 13px;height: 40px;line-height: 40px;text-align: center;font-weight: bold;}
+.top p{color: #878787;font-size: 24px;height: 30px;line-height: 30px;position: relative;text-align: center;}
+.top p:after{content: '';display: block;width: 224px;height: 4px;background: #f98a24;box-shadow:0px 3px 6px #cccccc;margin: 0 auto;}
+/*------------------------------ 标题结束 ---------------------------------------------*/
+
+
+
+/*------------------------------  第3屏 开始 ---------------------------------------------*/
+.section3 .center p:first-child img{float: right;display: block;width: 40%;margin-top: 80px;}
+.section3 .center{width:822px;margin: 0 auto;text-align: left;margin-top: 43px;}
+.section3 .center p{line-height: 36px;color: #303337;margin-bottom: 30px;font-size: 24px;}
+/*------------------------------ 第3屏结束 ---------------------------------------------*/
+
+
+
+/*------------------------------ 第5屏开始 ---------------------------------------------*/
+.section5 .center{text-align: center;}
+.section5 .center p:first-child{margin-top: 144px;color: #303337;font-size: 20px;line-height: 36px;}
+.section5 .center p:nth-of-type(2){position: relative;text-align: center;margin-top: 166px;}
+.section5 .center p:nth-of-type(2):after{content: ""; position: absolute;top: 50%;left: 0;width: 100%;border-top: 1px solid #999999;}
+.section5 .center p:nth-of-type(2) span{position: relative;background: #fff;z-index: 1;width: 311px;height: 38px;text-align: center;line-height: 38px;border: 1px solid #999999;display: block;margin: auto;}
+.section5 .center ul{width: 1205px;margin:20px auto 0;}
+.section5 .center ul li{width: 590px;text-align: right;float: left;}
+.section5 .center ul li:last-child{text-align: left;margin-left: 24px;}
+.section5 .center ul li span{line-height: 30px;font-size: 16px;color: #424242;}
+.section5 .center ol{margin: 26px auto 33px ;width: 1205px;}
+.section5 .center ol li{width: 103px;float:left ;text-align: center;}
+.section5 .center ol li:nth-of-type(2){margin: 0 251px;}
+.section5 .center ol li:first-child{margin-left: 195px;}
+.section5 .center ol li h4{height: 38px;line-height: 38px;color: #333333;}
+.section5 .center ol li p{height: 31px;line-height: 31px;color: #333333;}
+.section5 .center p:nth-of-type(3) a{display: inline-block;;width: 100px;text-align: center;font-size: 12px;color: #999999;}
+.section5 .center p:last-child{font-size: 12px;color: #999999;line-height: 20px;}
+/*------------------------------ 第5屏结束 ---------------------------------------------*/
+
+
